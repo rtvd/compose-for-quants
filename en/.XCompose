@@ -1,6 +1,8 @@
 # Import default rules from the system Compose file
 include "%L"
 
+# Greek letters
+
 <Multi_key> <g> <A> : "Α"
 <Multi_key> <g> <a> : "α"
 <Multi_key> <g> <B> : "Β"
@@ -55,3 +57,15 @@ include "%L"
 <Multi_key> <g> <Z> : "Ζ"
 <Multi_key> <g> <z> : "ζ"
 
+
+# Number sets
+
+<Multi_key> <n> <a> : "𝔸"
+<Multi_key> <n> <c> : "ℂ"
+<Multi_key> <n> <h> : "ℍ"
+<Multi_key> <n> <n> : "ℕ"
+<Multi_key> <n> <o> : "𝕆"
+<Multi_key> <n> <q> : "ℚ"
+<Multi_key> <n> <r> : "ℝ"
+<Multi_key> <n> <s> : "𝕊"
+<Multi_key> <n> <z> : "ℤ"

@@ -37,6 +37,7 @@ some mathematical symbols.
 ## Installing the Sequences
 
 At the moment, only Linux/UNIX systems and only English keyboard layouts are supported.
+It is expected that you are familiar with Linux desktops.
 
 The installation sequence goes like this:
 
@@ -53,7 +54,7 @@ This version adds Greek letters, which allows you to type formulae easier.
 It also allows you to use Greek letters in code. Some say it is ridiculous, but I do believe that quant code with
 actual Greek letters is [more readable](https://rtveliashvili.name/post/2023-06-21/greek-letters-in-quant-code).
 
-### Typing Greek Letters
+### Greek Letters
 
 The Greek sequences were largely based on the Greek keyboard layout.
 The consequence is that some letters like "ν" and "ξ" can be typed in more than one way.
@@ -95,10 +96,32 @@ remember) sequence for that.
 
 So while for "σ" you would type `Compose key` `g` `s`, for "ς" you need to type `Compose key` `g` `,` `s`.
 
+### Number Sets
+
+These are typed like this: `Compose key` `n` `<selector key>`.
+
+| Selector key | Symbol  | Meaning          |
+|--------------|---------|------------------|
+| a            | 𝔸       | Algebraic number |
+| c            | ℂ       | Complex number   |
+| h            | ℍ       | Quaternion       |
+| n            | ℕ       | Natural number   |
+| o            | 𝕆       | Octonion         |
+| q            | ℚ       | Rational number  |
+| r            | ℝ       | Real number      |
+| s            | 𝕊       | Sedenion         |
+| z            | ℤ       | Integer          |
+
+
+## TODO
+
+It would be good to add symbols such as ∞, ∈, ⊂, ∅, ≈, ≠.
+Care is needed to make sure the corresponding sequences are easy to remember.
+
 ## Troubleshooting
 
 By default, when Compose key is enabled, `Compose key` `-` `>` should produce `→`.
-If that does not work -- try to fix that first.
+If that does not work - try to fix that first.
 
 If Compose key is enabled and some combinations work, but not the ones provided by this configuration, then
 perhaps your system is not able to pick up user-defined configurations.
