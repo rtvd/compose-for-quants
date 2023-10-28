@@ -115,7 +115,7 @@ These are typed like this: `Compose key` `n` `<selector key>`.
 
 ## TODO
 
-It would be good to add symbols such as ∞, ∈, ⊂, ∅, ≈, ≠.
+It would be good to add symbols such as `∞`, `∈`, `⊂`, `∅`, `≈`, and so on.
 Care is needed to make sure the corresponding sequences are easy to remember.
 
 ## Troubleshooting
